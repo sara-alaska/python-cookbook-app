@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div class="col-md-8">
+    <div class="card-body">
+        <h3 class="card-title">{{ recipe.name }}</h3>
+        <h6>Ingredients</h6>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Unit</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for pl in recipe.get_ingredients %}
+                <tr>
+                    {% for l in pl%}
+                        <td>{{l}}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <h6>Instructions</h6>
+        <p class="card-text">{{recipe.instructions }}</p>
+        <h6>Category</h6>
+        <p class="card-text">{{recipe.category }}</p>
+    </div>
+</div>
+
+</body>
+</html>

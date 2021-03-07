@@ -1,0 +1,19 @@
+{% extends 'MyCookbook/base.html' %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<body>
+{% block body %}
+    <div class="container">
+    <br>
+    <h2>Shopping List</h2>
+    <hr>
+    {% for item in shopping_list %}
+        {{ item.list_item }}
+        <a class="btn btn-danger" href="{% url 'MyCookbook:shopping_list_delete' item.list_item  %}"><i class="fa fa-trash"></i></a>
+        <hr>
+    {% endfor %}
+{% endblock %}
+</div>
+</body>
+</html>

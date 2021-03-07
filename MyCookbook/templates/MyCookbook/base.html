@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Cookbook</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    {% block custom_js %}{% endblock %}
+    <link rel="stylesheet" href="{% static 'mycookbook/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <a class="navbar-brand navbar-brand-logo">
+        <div class="logo">
+            <a href="https://ibb.co/KrGQV1p"><img src="https://i.ibb.co/0GXWYwR/icon.png" alt="icon" width="30px" height="30px"></a>
+        </div>
+    </a>
+    <a class="navbar-brand" style="color: white" href="#">MY COOKBOOK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" style="color: white" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="color: white">
+            <li class="nav-item active">
+                <a class="nav-link" style="color: white" href="{% url 'MyCookbook:recipe' %}">Recipes<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" style="color: white" href="{% url 'MyCookbook:shopping_list' %}">Shopping List<span class="sr-only">(current)</span></a>
+            </li>
+            {% if user.is_authenticated %}
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: white" href="{% url 'profile' %}">Profile<span class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                <a class="nav-link" style="color: white" href="{% url 'logout' %}">Logout<span class="sr-only">(current)</span></a>
+            {% else %}
+                <a class="nav-link" style="color: white" href="{% url 'login' %}">Login<span class="sr-only">(current)</span></a>
+            {% endif %}
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" style="color: white" href="{% url 'MyCookbook:about' %}">About<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+{% if messages %}
+    {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% block body %}
+{% endblock %}
+</body>
+</html>

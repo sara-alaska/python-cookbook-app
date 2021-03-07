@@ -1,0 +1,20 @@
+{% extends 'MyCookbook/base.html' %}
+
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% block body %}
+<div class="container">
+    <form method="post" novalidate>
+        {% csrf_token %}
+        <h3>Are you sure you want to delete this Recipe?</h3>
+        <div class="btn-toolbar justify-content-center">
+            <button type="submit" class="btn btn-danger mr-2 mb-2">DELETE</button>
+            <a href="{% url 'MyCookbook:recipe' %}" class="btn btn-primary mr-2 mb-2">CANCEL</a>
+        </div>
+    </form>
+</div>
+{%  endblock %}
+</body>
+</html>

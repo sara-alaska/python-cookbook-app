@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7f4c3ce-c92a-4c7b-aba1-fc5167f8f63d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CS3620_Book/mysite/newapp/templates/newapp/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CS3620_Book/mysite/newapp/templates/newapp/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/0002_auto_20200930_0108.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/0003_auto_20201005_0101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/0004_contact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/0005_auto_20201011_1501.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/static/portfolio/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/static/mycookbook/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/contact-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/shopping_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/hobby_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/recipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/portfolio_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/recipe_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/portfolio_item_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/recipe_item_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/templates/PortfolioDatabase/portfolio_item_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/templates/MyCookbook/recipe_item_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortfolioDatabase/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCookbook/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/profile_pictures/IMG-2476.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/profilepic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pictures/profile_pictures/profilepic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="41eea7da-1d8f-4959-88c1-1cc4c8945ceb" />
+  <component name="ProjectId" id="1kgKO8kunqbmyIYJQorApSnPmyg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS3620_Book" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sara\Desktop\Github\cs3620\Portfolio\pictures\pictures" />
+      <recent name="C:\Users\sara\Desktop\Github\cs3620\Portfolio\pictures\profile_pictures" />
+      <recent name="C:\Users\sara\Desktop\Github\cs3620\Portfolio\MyCookbook\static" />
+      <recent name="C:\Users\sara\Desktop\Github\cs3620\Portfolio\MyCookbook\static\images" />
+      <recent name="C:\Users\sara\Desktop\Github\cs3620\Portfolio\MyCookbook\static\portfolio" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sara\Documents\GitHub\cs3620\Portfolio\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="MyCookbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7f4c3ce-c92a-4c7b-aba1-fc5167f8f63d" name="Default Changelist" comment="" />
+      <created>1606116760776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606116760776</updated>
+      <workItem from="1606116762802" duration="9402000" />
+      <workItem from="1606196119528" duration="15000" />
+      <workItem from="1606255185313" duration="10180000" />
+      <workItem from="1606283362925" duration="5570000" />
+      <workItem from="1606539098959" duration="11553000" />
+      <workItem from="1606590094715" duration="26100000" />
+      <workItem from="1606806702434" duration="599000" />
+      <workItem from="1606880185162" duration="8292000" />
+      <workItem from="1606961153620" duration="91421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="62" width="1089" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606170361396">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="62" width="1089" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606170361396" />
+    <state x="522" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607407541181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607407541181" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607377125368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607377125368" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606256301351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606256301351" />
+    <state width="746" height="261" key="GridCell.Tab.0.bottom" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.0.center" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.0.left" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.0.right" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1607413529350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607413529350" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1606170346181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606170346181" />
+    <state x="320" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606606849419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="320" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1606606849419" />
+    <state x="479" y="145" width="578" height="592" key="find.popup" timestamp="1606116984691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="145" width="578" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606116984691" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607054066456">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607054066456" />
+  </component>
+</project>

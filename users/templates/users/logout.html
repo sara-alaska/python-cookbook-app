@@ -1,0 +1,15 @@
+{% extends 'MyCookbook/base.html' %}
+{% load bootstrap4 %}
+{% load crispy_forms_filters %}
+{{ form|crispy }}
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% block body %}
+    <div class="container col-md-5" style="position: center">
+        <p class="text-center text-black-50" style="font-size: 30px">You have been logged out.</p>
+    </div>
+{% endblock %}
+</body>
+</html>

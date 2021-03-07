@@ -1,0 +1,23 @@
+{% extends 'MyCookbook/base.html' %}
+{% load crispy_forms_filters %}
+{% load bootstrap4 %}
+{{ form|crispy }}
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% block body %}
+    <div class="container col-md-5" style="position: center">
+        <h3 class="display-4 lead text-center text-black-50">Login to MyCookbook</h3>
+        <form method="post" novalidate>
+            {% csrf_token %}
+            {{ form|crispy }}
+            <div class="">
+                <button type="submit" class="btn btn-success col-lg">LOG IN</button>
+                <a href="{% url 'register' %}" class="text-center new-account col-lg">Create an account </a>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% extends 'MyCookbook/base.html' %}
+{% load bootstrap4 %}
+{% load crispy_forms_filters %}
+{{ form|crispy }}
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% block body %}
+
+    <div class="container col-md-5" style="position: center">
+        <h4 class="display-4 lead text-center text-black-50">Register</h4>
+        <form method="post" novalidate>
+            {% csrf_token %}
+            {{ form|crispy }}
+            <div class="">
+                <button type="submit" class="btn btn-success col-lg">SIGN UP</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+</body>
+</html>

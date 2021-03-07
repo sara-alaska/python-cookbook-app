@@ -1,0 +1,43 @@
+{% extends 'MyCookbook/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'mycookbook/profile.css' %}">
+<style>
+    .round {
+        width: 300px; height: 300px;
+        border-radius: 50%;
+        background: url({{ profile.avatar.url }}) no-repeat -70px 0;
+        background-size: auto 300px;
+    }
+</style>
+
+{% block body %}
+    <h3 style="padding: 20px; text-align: center">Profile</h3>
+    <div class="grid-80 " style="padding: 20px">
+        {% if not profile.first_name %}
+            <p>You have an empty profile.</p>
+            <a href="{% url 'users:edit_profile' %}">Add some info</a>
+
+        {% else %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{{ profile.avatar.url }}" style="width:200px;height:200px;object-fit:cover;border-radius:50%;">
+                    </div>
+                    <div class="col-md-6">
+                        <h2>{{ profile.first_name }} {{ profile.last_name }}</h2>
+                        <p><strong>Birthdate: </strong> {{ profile.birth_date }} </p>
+                        <hr>
+                        <p><strong>Email: </strong> {{ profile.email }} </p>
+                        <hr>
+                        <p><strong>Interests: </strong> {{ profile.interests }} </p>
+                        <hr>
+                        <p><strong>Bio: </strong> {{ profile.bio }}</p>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="button" href="{% url 'users:edit_profile' %}">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        {% endif %}
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'MyCookbook/base.html' %}
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<body>
+{% block body %}
+            <div class="profile card">
+                <div class="profile-body">
+                    <div class="profile-bio">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img class="img-fluid" src="https://i.ibb.co/CHPz9Ws/cookbook.jpg" alt="">
+                            </div>
+                            <div class="col-md-7">
+                                <h2 class="p-3">My Cookbook</h2>
+                                <hr>
+                                <p class="p-3">
+                                    MyCookbook is a website that helps you organize(create, modify, store, search, print) your own recipes
+                                    and create grocery lists based on recipe ingredients. You can also share your recipes with
+                                    other website users.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{% endblock %}
+</body>
+</html>
